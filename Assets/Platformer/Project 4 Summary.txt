@@ -1,0 +1,42 @@
+My game is called THE FOX AND THE FALLING BOX. You start out in the middle of a level, where you can chose to go left or right. You encounter purple blocks which, when touched, fall after 3 seconds, then respawn 3 seconds later. The Fox shoots angry thoughts out the top of it's head, which cause the enemy frogs to jump from shock. The player aims with the mouse. Once all 3 door parts (which are scattered accross the map) are collect, the player may go through the big door, and earn a sweet victory. Overall, I got almost everything I set out to do in the design. Gravity is done using bolt!
+
+I have added comments for the new feature points in the previous projects scripts
+
+KNOWN FEATURE POINTS:
+
+readme
+Lobby
+for loop
+layers
+tags
+dictionaries
+several instantiation
+several coroutines
+enum
+bolt!/visual scripting
+get
+set
+lerp
+jumping
+grounding
+shooting
+gizmos
+ray/circle cast
+colliders
+triggers
+StopCoroutine
+loadscene
+tilemaps
+animations
+GetComponentInParent
+script a triggerable camera move
+camera movement
+C# inheritance
+camera movement
+input.get
+mouse aim
+
+more in previous projects...
+
+THANK YOU!
+foreach

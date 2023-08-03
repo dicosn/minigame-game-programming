@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Lobby.unity
+    guid: fe3839025d2425147b1334b4daf1136d
+  - enabled: 1
+    path: Assets/Scenes/Text_Adventure.unity
+    guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Apple Picker Proj.unity
+    guid: 04ec878145cf5dc438fbf9f20a572c4a
+  - enabled: 1
+    path: Assets/Scenes/AppleTitle.unity
+    guid: 4874d78cfa72e3a42aa0f14ac44c6086
+  - enabled: 1
+    path: Assets/Scenes/AppleGameOver.unity
+    guid: 061442535e2879242b259cd91362ede8
+  - enabled: 1
+    path: Assets/Scenes/ShmupTitle.unity
+    guid: 7dac9d8247c68344b95121d994d140b5
+  - enabled: 1
+    path: Assets/Scenes/Shmup.unity
+    guid: 69b2c8656dca7e246ae806d9fed43b2a
+  - enabled: 1
+    path: Assets/Scenes/ShmupGameOver.unity
+    guid: c73b74176e6706943bc6f181fe7763bb
+  - enabled: 1
+    path: Assets/Scenes/Platformer.unity
+    guid: 5f19a5cfde8f08c42ab34df845356563
+  - enabled: 1
+    path: Assets/Scenes/PlatformerTitle.unity
+    guid: 844ba9954f53f844c9a0b1f805a6fafa
+  - enabled: 1
+    path: Assets/Scenes/PlatformerGameOver.unity
+    guid: b918639307022e444b5b182ebcdf320f
+  m_configObjects: {}

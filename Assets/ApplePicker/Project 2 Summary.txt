@@ -1,0 +1,21 @@
+Nic DiCosimo
+
+For my applepicker project, the player assumes the role of 3 hungry fellows beneath a ghostly toaster, launching an endless supply of toast above them. The toasts are the "apples" of this project. Each is an instantiated prefab spawned randomly by the enemy. They have 2D rigid body physics so they fall down realistically, however they have an initialy upward force applied upon them upon spawning (through AddForce) in order to simulate the toast popping out of the toaster. Upon colliding with a long rectangle beneath and out of view of the camera, every dropped object is destroyed, and one of the hungry fellows dies of starvation (the player prefab stored in an array is destroyed) and a death sound is triggered (border behavior is defined in the "BorderBehavior" script). If they collide with any of the 3 instantiated player prefabs (the hungry fellows) a chewing sound is played, and the score in the top left increases ("ScoreManager". The speed of the toaster (contained within the script "BoxBehavior") is multiplied by 1.05 its current speed with every point scored, until it reaches a maximum speed with the absolute value of 11.47 (speed can be negative in order to turn it around). It randomly changes direction-- if it's close to either side, any random value that will cause it to turn it away from the wall will activate, assuring the enemy doesn't repeatedly bump into the same wall. The spawnrate of toast has no limit and will increase proportially to the score. The rate of changing direction changes between speeds with absolute value of 5 and 10. The hungry fellows track the player's mouse x position (player behavior is defined in the script "PlayerBehavior") the player prefabs have chewing animations since they're always eating and porking out in general. Upon every chewing fellow's death, the game over screen is triggered with loadscene, where the player has the option to try again or go back to the main lobby scene (the script "SceneChanger" is reused several times throughout the project and is a loadscene script". The ding sound effect is purposefully quiet so it's not grating to hear once the spawn rate goes pretty high. The enemy behavior is intended to prevent gameplay from getting stale, with new behaviors as the score increases. A silly game indeed. I think that's everything of note, everything not mentioned is in the scripts and game itself. Enjoy!
+
+LIST OF FEATURES THAT MAY POTENTIALLY GO UNNOTICED:
+tags
+layers
+AddForce
+instantiating prefabs
+arrays
+loadscene
+colliders
+time.deltatime
+scoring system
+tracking the mouse
+reuse a script
+animations
+triggered sounds
+UI buttons
+UI Text
+enforcing boundaries

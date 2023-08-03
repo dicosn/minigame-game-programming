@@ -1,0 +1,29 @@
+The game is a schmup called Pizza Walker, you play as a bipedal pizza oven that launches pizza at hungry customers. I am extremely disheartened that I had so many exams and assigments back to back to back in the past week or so, that I could not fully realize the game to how I intended. I did manage to get the player set up (albeit without sprites), movement is operated with WASD, and aiming the launcher is done with the mouse, and shooting is right click. The launcher always follows the mouse's position, and the body of the tank eventually faces the same direction as the launcher, like how a tank would move. I also got the projectile behavior to work, it moves fast and destroys or gets destroyed on collision. I got the idle enemy coded and inputed, it moves similar to the ball in pong. Didn't have time to set up waves and how many prefabs to instantiate. I acomplished as much as I reasonably could, given my circumstances, and am proud of what I accomplished.
+
+List of known feature points:
+
+reuse a script
+
+time.deltatime
+
+loadscene
+
+input.get
+
+mouse aim
+
+colliders
+
+enforce boundaries
+
+tags
+
+tilemaps
+
+shooting
+
+prefab instantiating
+
+playerPrefs
+
+scoring system
